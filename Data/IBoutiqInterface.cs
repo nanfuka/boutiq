@@ -6,7 +6,7 @@ namespace boutiq.Data
     public interface IBoutiqInterface
     {
         IEnumerable<Boutiq> GetAllBoutiqItems();
-        Boutiq GetBoutiqItemsById();
+        Boutiq GetBoutiqItemsById(int id);
 
     }
 }

@@ -1,0 +1,14 @@
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.csprojAssemblyReference.cache
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.csproj.CoreCompileInputs.cache
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.RazorAssemblyInfo.cache
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.RazorAssemblyInfo.cs
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.AssemblyInfoInputs.cache
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.AssemblyInfo.cs
+/home/deb/boutiq/bin/Debug/netcoreapp2.2/boutiq.deps.json
+/home/deb/boutiq/bin/Debug/netcoreapp2.2/boutiq.runtimeconfig.json
+/home/deb/boutiq/bin/Debug/netcoreapp2.2/boutiq.runtimeconfig.dev.json
+/home/deb/boutiq/bin/Debug/netcoreapp2.2/boutiq.dll
+/home/deb/boutiq/bin/Debug/netcoreapp2.2/boutiq.pdb
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.RazorTargetAssemblyInfo.cache
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.dll
+/home/deb/boutiq/obj/Debug/netcoreapp2.2/boutiq.pdb
