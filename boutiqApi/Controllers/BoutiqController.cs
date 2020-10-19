@@ -42,6 +42,12 @@ namespace boutiq.Controllers
             return Ok(singleItem);
         }
 
-
+        [HttpPut("{id}")]
+        public ActionResult<Boutiq> UpdateBoutiqItems(int id)
+        {
+            var selectedItem = _repository.GetBoutiqItemsById(id);
+            var updatedItem = _repository.UpdateBoutiqItems(selectedItem);
+            return updatedItem;
+        }
     }
 }

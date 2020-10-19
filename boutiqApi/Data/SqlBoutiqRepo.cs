@@ -12,26 +12,32 @@ namespace boutiq.Data
         {
             _context = context;
         }
-
+        // create
         public Boutiq CreateBotiqItem(Boutiq boutiq)
         {
-            // var boutique = new Boutiq();
             _context.Add<Boutiq>(boutiq);
             _context.SaveChanges();
             return boutiq;
         }
 
+        // get
         IEnumerable<Boutiq> IBoutiqInterface.GetAllBoutiqItems()
         {
             return _context.Boutiqs.ToList();
         }
-
+        // getbyId
         Boutiq IBoutiqInterface.GetBoutiqItemsById(int id)
         {
             return _context.Boutiqs.FirstOrDefault(p => p.Id == id);
         }
 
-
+        // update
+        public Boutiq UpdateBoutiqItems(Boutiq boutiq)
+        {
+            _context.Boutiqs.Update(boutiq);
+            _context.SaveChanges();
+            return boutiq;
+        }
     }
 }
 
