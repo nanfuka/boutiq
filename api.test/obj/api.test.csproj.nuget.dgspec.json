@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/deb/boutiq/api.test/api.test.csproj": {}
+  },
+  "projects": {
+    "/home/deb/boutiq/api.test/api.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deb/boutiq/api.test/api.test.csproj",
+        "projectName": "api.test",
+        "projectPath": "/home/deb/boutiq/api.test/api.test.csproj",
+        "packagesPath": "/home/deb/.nuget/packages/",
+        "outputPath": "/home/deb/boutiq/api.test/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/deb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
