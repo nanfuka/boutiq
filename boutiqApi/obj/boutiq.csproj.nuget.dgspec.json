@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/deb/boutiq/boutiq.csproj": {}
+    "/home/deb/boutiq/boutiqApi/boutiq.csproj": {}
   },
   "projects": {
-    "/home/deb/boutiq/boutiq.csproj": {
+    "/home/deb/boutiq/boutiqApi/boutiq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/deb/boutiq/boutiq.csproj",
+        "projectUniqueName": "/home/deb/boutiq/boutiqApi/boutiq.csproj",
         "projectName": "boutiq",
-        "projectPath": "/home/deb/boutiq/boutiq.csproj",
+        "projectPath": "/home/deb/boutiq/boutiqApi/boutiq.csproj",
         "packagesPath": "/home/deb/.nuget/packages/",
-        "outputPath": "/home/deb/boutiq/obj/",
+        "outputPath": "/home/deb/boutiq/boutiqApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -75,6 +75,10 @@
             "Moq": {
               "target": "Package",
               "version": "[4.14.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

@@ -13,5 +13,12 @@ namespace boutiq.Models
         [Required]
         public int cost { get; set; }
 
+        // public Boutiq(string _type, string _Description, int _cost)
+        // {
+        //     Type = _type;
+        //     Description = _Description;
+        //     cost = _cost;
+        // }
+
     }
 }

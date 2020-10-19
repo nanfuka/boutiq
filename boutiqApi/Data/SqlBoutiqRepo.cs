@@ -13,6 +13,14 @@ namespace boutiq.Data
             _context = context;
         }
 
+        public Boutiq CreateBotiqItem(Boutiq boutiq)
+        {
+            // var boutique = new Boutiq();
+            _context.Add<Boutiq>(boutiq);
+            _context.SaveChanges();
+            return boutiq;
+        }
+
         IEnumerable<Boutiq> IBoutiqInterface.GetAllBoutiqItems()
         {
             return _context.Boutiqs.ToList();
@@ -22,5 +30,8 @@ namespace boutiq.Data
         {
             return _context.Boutiqs.FirstOrDefault(p => p.Id == id);
         }
+
+
     }
 }
+

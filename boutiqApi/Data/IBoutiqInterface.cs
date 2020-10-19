@@ -5,6 +5,7 @@ namespace boutiq.Data
 {
     public interface IBoutiqInterface
     {
+        Boutiq CreateBotiqItem(Boutiq boutiq);
         IEnumerable<Boutiq> GetAllBoutiqItems();
         Boutiq GetBoutiqItemsById(int id);
 
