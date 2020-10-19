@@ -42,12 +42,20 @@ namespace boutiq.Controllers
             return Ok(singleItem);
         }
 
-        [HttpPut("{id}")]
-        public ActionResult<Boutiq> UpdateBoutiqItems(int id)
+        [HttpPut]
+        public Boutiq UpdateBoutiqItems([FromBody] Boutiq boutiq)
+
         {
-            var selectedItem = _repository.GetBoutiqItemsById(id);
-            var updatedItem = _repository.UpdateBoutiqItems(selectedItem);
+            // var selectedItem = _repository.GetBoutiqItemsById(id);
+            var updatedItem = _repository.UpdateBoutiqItems(boutiq);
             return updatedItem;
+        }
+        [HttpDelete("{id}")]
+        public string DeleteBoutiqItem(int id)
+        {
+            var itemToBeDeleted = _repository.GetBoutiqItemsById(id);
+            var deleteBoutiqItem = _repository.DeleteBoutiqItem(itemToBeDeleted);
+            return "the item has need delelted";
         }
     }
 }

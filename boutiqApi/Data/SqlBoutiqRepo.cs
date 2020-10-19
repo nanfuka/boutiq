@@ -38,6 +38,15 @@ namespace boutiq.Data
             _context.SaveChanges();
             return boutiq;
         }
+
+        public string DeleteBoutiqItem(Boutiq boutiq)
+        {
+            _context.Boutiqs.Remove(boutiq);
+            _context.SaveChanges();
+            return "the boutiq item has been deleted";
+
+
+        }
     }
 }
 

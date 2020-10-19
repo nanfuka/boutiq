@@ -11,6 +11,9 @@ namespace boutiq.Data
 
         IEnumerable<Boutiq> GetAllBoutiqItems();
         Boutiq GetBoutiqItemsById(int id);
+        // delete interface
+        string DeleteBoutiqItem(Boutiq boutiq);
+
 
     }
 }
