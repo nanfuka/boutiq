@@ -1,2 +1,5 @@
+api.test.boutiqControllerTest.DeleteBoutiqItem
+api.test.boutiqControllerTest.UpdateBoutiqItem()
+api.test.boutiqControllerTest.WhenBoutiqItemsAreRetrieved()
 api.test.boutiqControllerTest.WhenBoutiqueItemIsAdded()
 Tests.Tests.Test1
