@@ -1,0 +1,2 @@
+api.test.boutiqControllerTest.WhenBoutiqueItemIsAdded()
+Tests.Tests.Test1
