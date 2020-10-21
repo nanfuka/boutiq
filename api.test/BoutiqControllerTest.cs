@@ -14,6 +14,7 @@ namespace api.test
     // ̣test for the ideal situation when a post is made with the right values
     public class boutiqControllerTest
     {
+
         // test the create function
         [TestCase]
         public void WhenBoutiqueItemIsAdded()
@@ -27,17 +28,18 @@ namespace api.test
                 cost = 234234
             };
 
-            var bi = new Mock<IBoutiqInterface>();
-            bi.Setup(p => p.CreateBotiqItem(botiq));
+            var repo = new Mock<IBoutiqInterface>();
+            repo.Setup(p => p.CreateBotiqItem(botiq));
 
-            var controller = new BoutiqController(bi.Object);
-            var resul = controller.PostBoutiqItem(botiq);
+            var controller = new BoutiqController(repo.Object);
+            var Postresult = controller.PostBoutiqItem(botiq);
 
-            Assert.AreEqual(resul, botiq);
+            Assert.AreEqual(Postresult, botiq);
         }
+
+
+
         // test the getAll function
-
-
         [TestCase]
         public void WhenBoutiqItemsAreRetrieved()
         {
@@ -66,11 +68,11 @@ namespace api.test
             // }
             // };
 
-            var bi = new Mock<IBoutiqInterface>();
-            bi.Setup(p => p.CreateBotiqItem(botiq));
+            var repo = new Mock<IBoutiqInterface>();
+            repo.Setup(p => p.CreateBotiqItem(botiq));
 
-            bi.Setup(p => p.GetAllBoutiqItems());
-            var controller = new BoutiqController(bi.Object);
+            repo.Setup(p => p.GetAllBoutiqItems());
+            var controller = new BoutiqController(repo.Object);
             var getResult = controller.GetAllBoutiqItems();
             Assert.IsNotNull(getResult);
             // Assert.AreEqual(3, getResult.Local.Count);
@@ -149,5 +151,4 @@ namespace api.test
         }
     }
 }
-
 
