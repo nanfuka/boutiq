@@ -5,7 +5,9 @@ namespace boutiq.Data
 {
     public class BoutiqContext : DbContext
     {
-       
+        public BoutiqContext()
+        {
+        }
 
         public BoutiqContext(DbContextOptions<BoutiqContext> options) : base(options)
         {

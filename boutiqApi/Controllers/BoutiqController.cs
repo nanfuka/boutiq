@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 
-namespace boutiq.Controllers
+namespace boutiqApi.Controllers
 {
     [Route("api/boutiq")]
     [ApiController]
@@ -21,13 +21,19 @@ namespace boutiq.Controllers
 
 
         [HttpPost]
-        public Boutiq Index([FromBody] Boutiq person)
+        public Boutiq PostBoutiqItem([FromBody] Boutiq boutiqItem)
         {
-            var addedBoutiqItem = _repository.CreateBotiqItem(person);
-            return person;
+            var addedBoutiqItem = _repository.CreateBotiqItem(boutiqItem);
+            return boutiqItem;
+        }
+
+        public static string Hello()
+        {
+            return "Hello";
         }
 
         [HttpGet]
+
 
         public ActionResult<IEnumerable<Boutiq>> GetAllBoutiqItems()
         {
@@ -55,7 +61,7 @@ namespace boutiq.Controllers
         {
             var itemToBeDeleted = _repository.GetBoutiqItemsById(id);
             var deleteBoutiqItem = _repository.DeleteBoutiqItem(itemToBeDeleted);
-            return "the item has need delelted";
+            return "the item has need deleted";
         }
     }
 }

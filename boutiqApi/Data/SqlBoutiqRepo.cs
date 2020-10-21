@@ -39,8 +39,7 @@ namespace boutiq.Data
             return boutiq;
         }
 
-        public string DeleteBoutiqItem(Boutiq boutiq)
-        {
+        public string DeleteBoutiqItem(Boutiq boutiq){
             _context.Boutiqs.Remove(boutiq);
             _context.SaveChanges();
             return "the boutiq item has been deleted";
