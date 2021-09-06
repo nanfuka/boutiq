@@ -1,32 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/deb/boutiq/boutiqApi/boutiq.csproj": {}
+    "C:\\Users\\DEB KARUNGI\\Desktop\\New folder (2)\\boutiq\\boutiqApi\\boutiq.csproj": {}
   },
   "projects": {
-    "/home/deb/boutiq/boutiqApi/boutiq.csproj": {
+    "C:\\Users\\DEB KARUNGI\\Desktop\\New folder (2)\\boutiq\\boutiqApi\\boutiq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/deb/boutiq/boutiqApi/boutiq.csproj",
+        "projectUniqueName": "C:\\Users\\DEB KARUNGI\\Desktop\\New folder (2)\\boutiq\\boutiqApi\\boutiq.csproj",
         "projectName": "boutiq",
-        "projectPath": "/home/deb/boutiq/boutiqApi/boutiq.csproj",
-        "packagesPath": "/home/deb/.nuget/packages/",
-        "outputPath": "/home/deb/boutiq/boutiqApi/obj/",
+        "projectPath": "C:\\Users\\DEB KARUNGI\\Desktop\\New folder (2)\\boutiq\\boutiqApi\\boutiq.csproj",
+        "packagesPath": "C:\\Users\\DEB KARUNGI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DEB KARUNGI\\Desktop\\New folder (2)\\boutiq\\boutiqApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/deb/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DEB KARUNGI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -38,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -82,10 +86,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

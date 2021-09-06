@@ -26,3 +26,20 @@
 /home/deb/boutiq/boutiqApi/obj/Debug/netcoreapp2.2/boutiq.RazorTargetAssemblyInfo.cache
 /home/deb/boutiq/boutiqApi/obj/Debug/netcoreapp2.2/boutiq.dll
 /home/deb/boutiq/boutiqApi/obj/Debug/netcoreapp2.2/boutiq.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\bin\Debug\netcoreapp2.2\boutiq.deps.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\bin\Debug\netcoreapp2.2\boutiq.runtimeconfig.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\bin\Debug\netcoreapp2.2\boutiq.runtimeconfig.dev.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\bin\Debug\netcoreapp2.2\boutiq.dll
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\bin\Debug\netcoreapp2.2\boutiq.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.csproj.AssemblyReference.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.AssemblyInfoInputs.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.AssemblyInfo.cs
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.csproj.CoreCompileInputs.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.RazorAssemblyInfo.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.RazorAssemblyInfo.cs
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.RazorTargetAssemblyInfo.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.dll
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\boutiqApi\obj\Debug\netcoreapp2.2\boutiq.genruntimeconfig.cache

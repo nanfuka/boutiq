@@ -15,3 +15,26 @@
 /home/deb/boutiq/api.test/obj/Debug/netcoreapp2.2/api.test.csproj.CopyComplete
 /home/deb/boutiq/api.test/obj/Debug/netcoreapp2.2/api.test.dll
 /home/deb/boutiq/api.test/obj/Debug/netcoreapp2.2/api.test.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\boutiq.deps.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\boutiq.runtimeconfig.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\boutiq.runtimeconfig.dev.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\api.test.deps.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\api.test.runtimeconfig.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\api.test.runtimeconfig.dev.json
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\api.test.dll
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\api.test.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\boutiq.dll
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\bin\Debug\netcoreapp2.2\boutiq.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.csproj.AssemblyReference.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.AssemblyInfoInputs.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.AssemblyInfo.cs
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.csproj.CoreCompileInputs.cache
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.csproj.CopyComplete
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.dll
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.pdb
+C:\Users\DEB KARUNGI\Desktop\New folder (2)\boutiq\api.test\obj\Debug\netcoreapp2.2\api.test.genruntimeconfig.cache

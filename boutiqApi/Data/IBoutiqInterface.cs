@@ -1,5 +1,6 @@
-using System.Collections.Generic;
 using boutiq.Models;
+using System.Collections.Generic;
+
 
 namespace boutiq.Data
 {
